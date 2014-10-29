@@ -28,6 +28,7 @@ body {
 <body>
 <div id="top">
 	<h1>Learn the skills you need to become a better chef!</h1>
+	<h1><img src="cooking2.jpg" alt="top">
 </div>
 
 <div id="middle">
@@ -37,6 +38,7 @@ body {
 	<li> Knife Skills </li>
 	<li> Sautee, Braise, and Roast Techniques </li>
 	<li> Sauce Fundamentals </li></h3>
+	<h3><img src="bb7_divider.jpg" alt="middle"></h3>
 	<h3> Our class will be taught by Rocco Parma, executive chef of Little Naples in Ardmore. </h3>
 </div>
 

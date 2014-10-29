@@ -16,13 +16,25 @@ body {
 }
 
 #middle {
-		font-size: 1em;
+	font-size: 1em;
 		
 }
 
-#bottom {
-		font-size: 2em;
+#box1 {
+	font-size: 2em;
 }
+
+#box2 {
+	font-size: 1em;
+	padding: 2em;
+}
+
+h2 {
+    position: absolute;
+    left: 100px;
+    top: 160px;
+}
+
 </style>
 </head>
 <body>
@@ -33,18 +45,24 @@ body {
 
 <div id="middle">
 	<h2>The Gourmet Market in Narberth is offering a kitchen fundamentals on Thursday October 30 from 6pm to 9pm.</h2>
-	<h2>Students will learn:</h2>
-	<h3> 
+	<h3>Students will learn:</h3> 
 	<li> Knife Skills </li>
 	<li> Sautee, Braise, and Roast Techniques </li>
 	<li> Sauce Fundamentals </li></h3>
-	<h3><img src="bb7_divider.jpg" alt="middle"></h3>
-	<h3> Our class will be taught by Rocco Parma, executive chef of Little Naples in Ardmore. </h3>
+	<h4><img src="bb7_divider.jpg" alt="middle"></h4>
+	
 </div>
 
-<div id="bottom">
+<section id= "floats">
+<div id="box1">
+	<div id="box1" class="textbox" style="float:left; width:40%">
 	<h5>Groups are welcome, or come on your own! $75 enrollment fee per student, which includes wine and snacks during our class.</h5>
+</div>
+<div id="box2">
+	<div id="box2" class="textbox" style="float:right; width:40%">
+	<h4>Our class will be taught by Rocco Parma, executive chef of Little Naples in Ardmore.</h4>
 	<h5>Contact narberthgourmet@gmail.com to register.</h5>
 </div>
+</section>
 </body>
 </html>	
